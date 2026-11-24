@@ -1,0 +1,6 @@
+.scratch/
+backups/
+__pycache__/
+
+/AGENTS.md
+/tag

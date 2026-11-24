@@ -1,0 +1,7 @@
+Wire definitions and protocol behavior adapted from OpenEPaperLink, including
+the ESP32-C6 port by ATC1441 and other project contributors.
+https://github.com/OpenEPaperLink/OpenEPaperLink/tree/9dc57673f83e6a6aa4cf0310dbc97ad2da26c120/ARM_Tag_FW/OpenEPaperLink_esp32_C6_AP/main
+This MG21 adaptation replaces the ESP-IDF runtime with a polling interface,
+limits the pending queue to 20 tags, bounds incoming frames, and checks block
+integrity before transmission. This directory uses the same Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International license (see LICENSE).
