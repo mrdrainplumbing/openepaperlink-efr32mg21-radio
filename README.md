@@ -4,6 +4,12 @@ Use a Silicon Labs EFR32MG21 module as the 2.4 GHz IEEE 802.15.4 radio for an ES
 
 The tested combination is an **ESP32-S3-DevKitC-N16R8**, **Yellow AP 2.91**, and an **NZ-M21 with EFR32MG21A020F768IM32**, 768 KiB flash and 64 KiB SRAM. A Hanshow Stellar M3N running compatible tag-side firmware displayed an image through this radio. Provision the S3 and tags separately. [OpenEPaperLink project](https://github.com/OpenEPaperLink/OpenEPaperLink)
 
+## Radio
+
+Bought off Taobao
+<img width="848" height="683" alt="image" src="https://github.com/user-attachments/assets/7f0d4a00-b73a-44bd-a355-b9ea280fa652" />
+
+
 ## Wiring
 
 With power disconnected, orient the NZ-M21 with its antenna at the top. The left-edge pads count down from 1. Use the S3's **USB-to-UART** connector for the CP2102 connection to Linux. The S3 temporarily acts as the SWD programmer through GPIO16 and GPIO20.
